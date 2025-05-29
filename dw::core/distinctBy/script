@@ -1,0 +1,6 @@
+%dw 2.0
+output application/json
+---
+{
+  distinctemployees: payload.employees distinctBy ((employees) -> employees.email)
+}
