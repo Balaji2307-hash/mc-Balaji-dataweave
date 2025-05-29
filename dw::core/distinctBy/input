@@ -1,0 +1,7 @@
+{
+  "employees": [
+    { "name": "Balaji", "email": "balaji@mulecraft.com" },
+    { "name": "Srinivasan", "email": "srinivasan@mulecraft.com" },
+    { "name": "srinivasan", "email": "srinivasan@mulecraft.com" }
+  ]
+}
