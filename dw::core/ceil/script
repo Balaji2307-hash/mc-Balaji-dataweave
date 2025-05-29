@@ -1,0 +1,6 @@
+%dw 2.0
+output application/json
+---
+{
+    ceilprices: ([ceil(105.5),ceil(102.1),ceil(104.9),ceil(106)])
+}
