@@ -1,0 +1,6 @@
+%dw 2.0
+output application/json
+---
+{
+    contains : (payload.maruti contains "swift")
+}
