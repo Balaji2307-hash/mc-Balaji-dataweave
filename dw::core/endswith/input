@@ -1,0 +1,9 @@
+{
+  "emails": [
+    "balaji@example.com",
+    "gowtham@example.com",
+    "jeeva@example.com",
+    "naveen@example.com"
+  ],
+  "domain": "@example.com"  
+}
