@@ -1,0 +1,7 @@
+{
+  "employeeId": "E12345",
+  "name": "Priya Sharma",
+  "department": "Finance",
+  "salary": 75000,
+  "isActive": true
+}
