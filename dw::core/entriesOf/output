@@ -1,0 +1,37 @@
+[
+  {
+    "key": "employeeId",
+    "value": "E12345",
+    "attributes": {
+      
+    }
+  },
+  {
+    "key": "name",
+    "value": "Priya Sharma",
+    "attributes": {
+      
+    }
+  },
+  {
+    "key": "department",
+    "value": "Finance",
+    "attributes": {
+      
+    }
+  },
+  {
+    "key": "salary",
+    "value": 75000,
+    "attributes": {
+      
+    }
+  },
+  {
+    "key": "isActive",
+    "value": true,
+    "attributes": {
+      
+    }
+  }
+]
