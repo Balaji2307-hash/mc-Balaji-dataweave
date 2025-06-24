@@ -1,0 +1,15 @@
+[
+  {
+    "customer": "Alice",
+    "orders": [
+      { "orderId": "A1", "products": ["Book", "Pen"] },
+      { "orderId": "A2", "products": ["Notebook"] }
+    ]
+  },
+  {
+    "customer": "Bob",
+    "orders": [
+      { "orderId": "B1", "products": ["Pencil", "Eraser", "Sharpener"] }
+    ]
+  }
+]
