@@ -1,0 +1,11 @@
+%dw 2.0
+output application/json
+---
+payload flatMap (cust) ->
+  cust.orders flatMap (order) ->
+    order.products map (product) ->
+      {
+        customer: cust.customer,
+        orderId: order.orderId,
+        product: product
+      }
