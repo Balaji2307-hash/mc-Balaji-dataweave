@@ -1,0 +1,32 @@
+[
+  {
+    "customer": "Alice",
+    "orderId": "A1",
+    "product": "Book"
+  },
+  {
+    "customer": "Alice",
+    "orderId": "A1",
+    "product": "Pen"
+  },
+  {
+    "customer": "Alice",
+    "orderId": "A2",
+    "product": "Notebook"
+  },
+  {
+    "customer": "Bob",
+    "orderId": "B1",
+    "product": "Pencil"
+  },
+  {
+    "customer": "Bob",
+    "orderId": "B1",
+    "product": "Eraser"
+  },
+  {
+    "customer": "Bob",
+    "orderId": "B1",
+    "product": "Sharpener"
+  }
+]
