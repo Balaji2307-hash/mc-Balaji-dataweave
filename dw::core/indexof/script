@@ -1,0 +1,16 @@
+%dw 2.0
+output application/json
+var feedback = [
+  "Great service!",
+  "Loved the product.",
+  "Could be better.",
+  "Great support team.",
+  "Not satisfied."
+]
+var searchKeywords = ["Great", "Bad", "Loved", "support"]
+---
+searchKeywords reduce ((item, acc = {}) -> 
+    acc ++ {
+      (item): feedback indexOf ((msg) -> msg indexOf item != -1)
+    }
+)
