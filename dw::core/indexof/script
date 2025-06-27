@@ -1,5 +1,6 @@
 %dw 2.0
 output application/json
+
 var feedback = [
   "Great service!",
   "Loved the product.",
@@ -7,10 +8,19 @@ var feedback = [
   "Great support team.",
   "Not satisfied."
 ]
+
 var searchKeywords = ["Great", "Bad", "Loved", "support"]
+
+fun findFirstIndex(arr, keyword) = 
+  arr
+    map ((msg, idx) -> if ((msg indexOf keyword) != -1) idx else -1)
+    filter ($ != -1)
+    default [-1]
+    [0]
+
 ---
 searchKeywords reduce ((item, acc = {}) -> 
     acc ++ {
-      (item): feedback indexOf ((msg) -> msg indexOf item != -1)
+      (item): findFirstIndex(feedback, item)
     }
 )
