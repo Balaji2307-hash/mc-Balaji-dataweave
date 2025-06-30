@@ -1,0 +1,20 @@
+[
+  {
+    "employeeId": "E101",
+    "name": "Rahul",
+    "skills": {
+      "Java": "Advanced",
+      "SQL": "Intermediate",
+      "Python": "Beginner"
+    }
+  },
+  {
+    "employeeId": "E102",
+    "name": "Priya",
+    "skills": {
+      "JavaScript": "Advanced",
+      "HTML": "Advanced",
+      "CSS": "Intermediate"
+    }
+  }
+]
