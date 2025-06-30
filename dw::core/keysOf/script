@@ -1,0 +1,9 @@
+%dw 2.0
+output application/json
+---
+payload map (student) -> {
+    employeeId: student.employeeId,
+    name: student.name,
+    skillsList: (keysOf(student.skills) orderBy $) joinBy "; ",
+    skillsCount: sizeOf(keysOf(student.skills))
+}
