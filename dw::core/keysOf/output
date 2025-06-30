@@ -1,0 +1,14 @@
+[
+  {
+    "employeeId": "E101",
+    "name": "Rahul",
+    "skillsList": "Java; Python; SQL",
+    "skillsCount": 3
+  },
+  {
+    "employeeId": "E102",
+    "name": "Priya",
+    "skillsList": "CSS; HTML; JavaScript",
+    "skillsCount": 3
+  }
+]
