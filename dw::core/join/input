@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Amit",
+    "subjects": ["Maths", "Physics", "Chemistry"]
+  },
+  {
+    "name": "Sara",
+    "subjects": ["Biology", "Maths", "English"]
+  }
+]
