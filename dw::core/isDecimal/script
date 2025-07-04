@@ -1,0 +1,13 @@
+%dw 2.0
+output application/json
+---
+{
+  telecomActiveCustomers: (payload.telecomCustomers
+    filter (item) -> item.active == true)
+    map (item) -> {
+      customerId: item.customerId,
+      name: item.name,
+      phoneNumber: item.phoneNumber,
+      monthlyCharges: (item.monthlyCharges as Number)
+    }
+}
