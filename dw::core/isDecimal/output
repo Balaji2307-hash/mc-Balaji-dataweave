@@ -1,0 +1,16 @@
+{
+  "telecomActiveCustomers": [
+    {
+      "customerId": "C001",
+      "name": "John Doe",
+      "phoneNumber": "555-1234",
+      "monthlyCharges": 89.99
+    },
+    {
+      "customerId": "C003",
+      "name": "Bob Johnson",
+      "phoneNumber": "555-9012",
+      "monthlyCharges": 79.99
+    }
+  ]
+}
