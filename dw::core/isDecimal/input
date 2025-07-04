@@ -1,0 +1,1 @@
+{"telecomCustomers":[{"customerId":"C001","name":"John Doe","phoneNumber":"555-1234","monthlyCharges":"89.99","active":true},{"customerId":"C002","name":"Jane Smith","phoneNumber":"555-5678","monthlyCharges":"109.99","active":false},{"customerId":"C003","name":"Bob Johnson","phoneNumber":"555-9012","monthlyCharges":"79.99","active":true}]}
