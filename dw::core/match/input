@@ -1,0 +1,18 @@
+{
+  "accountActivities": [
+    {
+      "activityId": "ACT101",
+      "accountHolder": "Bob",
+      "activityType": "Deposit",
+      "amount": 500,
+      "date": "2023-02-01"
+    },
+    {
+      "activityId": "ACT102",
+      "accountHolder": "Bob",
+      "activityType": "Withdrawal",
+      "amount": 200,
+      "date": "2023-02-05"
+    }
+  ]
+}
