@@ -1,0 +1,8 @@
+{
+  "accountSummary": {
+    "accountHolder": "Bob",
+    "totalActivities": 2,
+    "netAmount": 300,
+    "averageActivityAmount": 350
+  }
+}
