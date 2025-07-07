@@ -1,0 +1,21 @@
+%dw 2.0
+output application/json
+
+var activities = payload.accountActivities
+var accountHolder = activities[0].accountHolder
+var totalActivities = sizeOf(activities)
+var netAmount = activities reduce ((item, acc = 0) -> 
+  acc + (if (item.activityType == "Deposit") item.amount else -item.amount)
+)
+var totalAmount = activities reduce ((item, acc = 0) -> acc + item.amount)
+var averageActivityAmount = totalAmount / totalActivities
+
+---
+{
+  accountSummary: {
+    accountHolder: accountHolder,
+    totalActivities: totalActivities,
+    netAmount: netAmount,
+    averageActivityAmount: averageActivityAmount
+  }
+}
