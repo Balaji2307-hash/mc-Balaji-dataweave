@@ -1,8 +1,0 @@
-%dw 2.0
-output application/json
----
-payload pluck ((value, key, index) -> {
-    "fruit": key,
-    "Quantity": value,
-    "status": if(value >= 6) "instock" else "low stock"
-})
