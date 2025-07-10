@@ -1,0 +1,17 @@
+[
+  {
+    "fruit": "apple",
+    "Quantity": 10,
+    "status": "instock"
+  },
+  {
+    "fruit": "banana",
+    "Quantity": 5,
+    "status": "low stock"
+  },
+  {
+    "fruit": "orange",
+    "Quantity": 8,
+    "status": "instock"
+  }
+]
